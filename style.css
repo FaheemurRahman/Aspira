@@ -1,0 +1,687 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#ebe6fc;
+    overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+}
+#secondline{
+    margin-top: 62px;
+    margin-bottom: -25px;
+}
+
+p{
+    text-align: center;
+ 
+
+}
+h1{
+    text-align: center;
+ 
+
+}
+
+.container{
+    border: 2px solid black;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: azure;
+    padding: 35px 25px;
+    margin-left: 433px;
+    margin-right: 300px;
+    margin-top: 65px;
+    height: 25em;
+    width: 40em;
+   
+
+
+}
+.input-container{
+    display: relative;
+    width: 250px;
+}
+.left{
+align-items: flex-start;
+justify-content: left;
+padding: 0px;
+margin: 0px;
+}
+
+#rightheading{
+    text-align: center;
+    color: white;
+}
+
+#rightext{
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: "Roboto", serif;
+    line-height: 36px;
+
+}
+
+
+#firstline{
+    font-size: larger;
+    margin-top: 0px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 295px;
+    top: 10px;
+}
+ form
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+input[type = "text"]{
+    border-radius: 120px;
+    background-color: white;
+    padding: 16px 44px;
+    width: 22em;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: #000000;
+    
+}
+
+input[type = "email"]{
+    border-radius: 120px;
+    background-color: white;
+    padding: 16px 44px;
+    width: 22em;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type = "password"]{
+    border-radius: 120px;
+    background-color: white;
+    padding: 16px 44px;
+    width: 22em;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+
+.right
+{
+    
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background: linear-gradient(135deg,  #a700f3, #1700ef);
+    margin: -34px -17px;
+    padding: 158px 0px;
+    width: 342px;
+    top: 0px;
+    position: relative;
+    z-index: 4;
+    left: 48px;
+    float: right;
+    height: 152px;
+}
+
+#icon1, #icon2, #icon3, #icon4{
+    z-index: 2;
+    color: #1700ef;
+    position: absolute;
+    width: 54px;
+    padding: 15px 1px;
+}
+#abovereset{
+ position: relative;
+ width: 300px;
+ top: -10px;
+}
+
+#reset{
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+.light{
+    color: red;
+}
+
+
+/*  #button1{
+     background: linear-gradient(135deg, #a8ff78, #78ffd6); 
+    position: absolute;
+    font-size: 16px;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 6px 218px;
+
+
+    
+    
+} */
+
+#button1{
+    width: 231px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    float: right;
+    color: white;
+    position: relative;
+    background: linear-gradient(135deg, #a700f3, #1700ef);
+    border: none;
+    cursor: pointer;
+    right: -15px;
+}
+
+#button1:hover{
+    background-color: rgb(0, 136, 255);
+    color:  #000000;
+    transition: 1s;
+}   
+
+
+
+
+#newAccount, #oldAccount{
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
+    
+}
+
+#newAccount{
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+#oldAccount{
+    position: relative;
+    bottom: -10px;
+    width: 278px;
+}
+
+#icon3a, #icon4a{
+    position: absolute;
+    color: #1700ef;
+    left: 725px;
+    padding: 15px 1px;
+}
+
+/* MEDIA QUEARY djfhsdfhkasfhsjkfhsjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhasfd */
+
+@media only screen   and (max-width:399px){
+    body {
+        width: 800px;
+        background-color: #ebe6fc;
+        
+    }
+   
+   #secondline{
+        text-align:center;
+        font-size: 50px;
+   }
+
+   .container {
+ 
+    width: 776px;
+    margin: 68px auto;
+    height: auto;
+    padding: 20px 15px;
+}
+#firstline{
+font-size: 40px;
+margin-top: 25px;
+font-weight: bold;
+color: rgb(0, 0, 0);
+width: 755px;
+}
+
+.left{
+    padding: 40px 1px;
+    margin: 0px;
+}
+
+
+input[type = "text"]{
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 54px;
+    width: 58em;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: #000000;
+   
+    
+}
+
+input[type = "password"] {
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 54px;
+    width: 58em;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type = "email"] {
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 54px;
+    width: 58em;
+    box-sizing: border-box;
+    border: none;
+}
+#icon1, #icon2, #icon3, #icon4 {
+    z-index: 2;
+    color: #1700ef;
+    position: absolute;
+    width: 70px;
+    padding: 26px 1px;
+    font-size: 35px;
+}
+
+input::placeholder {
+    font-size: 30px;
+    position: relative;
+    left: 15px;
+  }
+#icon3a, #icon4a {
+    position: absolute;
+    color: #1700ef;
+    left: 722px;
+    padding: 31px 1px;
+    font-size: 35px;
+}
+#reset{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    left: 210px;
+}
+
+#button1 {
+    width: 408px;
+    border-radius: 10px;
+    padding: 18px 12px;
+    float: right;
+    color: white;
+    font-size: 26px;
+    position: relative;
+    background: linear-gradient(135deg, #a700f3, #1700ef);
+    border: none;
+    cursor: pointer;
+    left: 312px;
+    top: 70px;
+}
+#oldAccount {
+    position: relative;
+    bottom: -77px;
+    width: 717px;
+    font-size: 25px;
+}
+
+#newAccount{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+.right {
+    /* border-top-right-radius: 18px; */
+    /* border-bottom-right-radius: 18px; */
+    border-radius: 10px;
+    background: linear-gradient(135deg, #a700f3, #1700ef);
+    margin: -34px -17px;
+    padding: 158px 0px;
+    width: 706px;
+    top: 164px;
+    position: relative;
+    z-index: 4;
+    left: 48px;
+    float: right;
+    height: 152px;
+}
+
+#formpassword{
+    /* position: relative;
+    width: 10px;*/
+    padding-right: 25px;
+
+} 
+
+#rightheading {
+    text-align: center;
+    color: white;
+    font-size: 53px;
+    position: relative;
+        bottom: 70px;
+}
+
+#rightext {
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: "Roboto", serif;
+    line-height: 36px;
+    font-size: 26px;
+    position: relative;
+    bottom: 57px;
+}
+}
+
+@media (min-width:400px) and (max-width:700px)  {
+  
+    body {
+        width: 800px;
+        background-color: #ebe6fc;
+        
+    }
+   
+   #secondline{
+        text-align:center;
+        font-size: 50px;
+   }
+
+   .container {
+    width: 776px;
+    margin: 68px auto;
+    height: auto;
+    border-radius: 227px;
+    padding-bottom: 195px;
+    padding-top: 1px;
+}
+
+#firstline{
+font-size: 40px;
+margin-top: 25px;
+font-weight: bold;
+color: rgb(0, 0, 0);
+width: 755px;
+}
+
+.left{
+    padding: 166px 1px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+input[type = "text"]{
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 54px;
+    width: 58em;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: #000000;
+   
+    
+}
+
+input[type = "password"] {
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 54px;
+    width: 58em;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type = "email"] {
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px 54px;
+    width: 58em;
+    box-sizing: border-box;
+    border: none;
+}
+#icon1, #icon2, #icon3, #icon4 {
+    z-index: 2;
+    color: #1700ef;
+    position: absolute;
+    width: 70px;
+    padding: 26px 1px;
+    font-size: 35px;
+}
+
+input::placeholder {
+    font-size: 30px;
+    position: relative;
+    left: 15px;
+  }
+#icon3a, #icon4a {
+    position: absolute;
+    color: #1700ef;
+    left: 722px;
+    padding: 31px 1px;
+    font-size: 35px;
+}
+#reset{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    left: 210px;
+}
+
+#button1 {
+    width: 408px;
+    border-radius: 10px;
+    padding: 18px 12px;
+    float: right;
+    color: white;
+    font-size: 26px;
+    position: relative;
+    background: linear-gradient(135deg, #a700f3, #1700ef);
+    border: none;
+    cursor: pointer;
+    left: 312px;
+    top: 70px;
+}
+#oldAccount {
+    position: relative;
+    bottom: -77px;
+    width: 717px;
+    font-size: 25px;
+}
+
+#newAccount{
+    font-weight: bold;
+    font-size: 34px;
+}
+
+
+.right {
+    /* border-top-right-radius: 18px; */
+    /* border-bottom-right-radius: 18px; */
+    border-radius: 20px;
+    background: linear-gradient(135deg, #a700f3, #1700ef);
+    margin: -34px -17px;
+    padding: 158px 0px;
+    width: 526px;
+    top: 89px;
+    position: relative;
+    z-index: 4;
+    left: 122px;
+    float: right;
+    height: 10px;
+}
+
+
+#formpassword{
+    /* position: relative;
+    width: 10px;*/
+    padding-right: 25px;
+
+} 
+
+#rightheading {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    position: relative;
+    bottom: 130px;
+}
+
+#rightext {
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: "Roboto", serif;
+    line-height: 36px;
+    font-size: 24px;
+    position: relative;
+    bottom: 130px;
+}
+
+}
+
+@media (min-width:701px) and (max-width:1024px) {
+    .container {
+        border: 2px solid black;
+        border: none;
+        border-radius: 20px;
+        display: flex ;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: azure;
+        padding: 35px 25px;
+        margin-left: 47px;
+        margin-right: 300px;
+        margin-top: 70px;
+        height: 40em;
+        width: 40em;
+    }
+    
+    
+    
+    #secondline {
+        margin-top: 86px;
+        margin-bottom: -20px;
+        margin-left: 0px;
+        font-size: 50px;
+    }
+
+    .right {
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        background: linear-gradient(135deg, #a700f3, #1700ef);
+        margin: -34px -17px;
+        padding: 158px 0px;
+        width: 342px;
+        top: 0px;
+        position: relative;
+        z-index: 4;
+        left: 162px;
+        float: right;
+        height: 123px;
+        height: 389px;
+    }
+    .left{
+        position: relative;
+        left: 32px;
+
+    }
+
+    #rightheading {
+        text-align: center;
+        color: white;
+        font-size: 44px;
+    }
+
+    #rightext {
+        text-align: center;
+        padding: 12px;
+        color: white;
+        font-family: "Roboto", serif;
+        line-height: 36px;
+        font-size: 23px;
+    }
+    #firstline {
+        font-size: 33px;
+        margin-top: 30px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        width: 300px;
+    }
+    .input-container {
+        width: 250px;
+        position: relative;
+        top: 30px;
+    }
+    #oldAccount {
+        position: relative;
+        bottom: -130px;
+        width: 318px;
+        font-size: 17px;
+        top: 62px;
+    }
+
+    #newAccount {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+#button1 {
+    width: 211px;
+    border-radius: 10px;
+    padding: 20px 12px;
+    float: right;
+    color: white;
+    position: relative;
+    background: linear-gradient(135deg, #a700f3, #1700ef);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    right: -15px;
+    top: 52px;
+}
+#icon3a, #icon4a {
+    position: absolute;
+    color: #1700ef;
+    display: none;
+    left: 725px;
+    padding: 15px 1px;
+}
+
+}
+
+@media only screen and (min-width:1030px) {
+    .container {
+        border: 2px solid black;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: azure;
+        padding: 35px 25px;
+        margin-left: 184px;
+        margin-right: 300px;
+        margin-top: 65px;
+        height: 25em;
+        width: 40em;
+    }
+}
+
+
+
+
+  
