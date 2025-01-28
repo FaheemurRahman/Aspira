@@ -288,43 +288,42 @@ width: 755px;
 }
 
 
-input[type = "text"]{
+input[type = "text"], [type = "email"],[type = "password"] {
     border-radius: 120px;
     background-color: rgb(255, 255, 255);
-    padding: 40px 54px;
-    width: 58em;
+    padding: 35px 54px;
+    width: 22em;
     box-sizing: border-box;
     border: none;
     box-shadow: #000000;
-   
-    
+    font-size: 35px;
 }
 
-input[type = "password"] {
-    border-radius: 120px;
-    background-color: rgb(255, 255, 255);
-    padding: 40px 54px;
-    width: 58em;
+ input[type = "password"] {
+    /* border-radius: 120px;
+    background-color: rgb(255, 255, 255); */
+    padding: 35px 54px;
+    /* width: 58em;
     box-sizing: border-box;
-    border: none;
+    border: none; */
 }
 
 input[type = "email"] {
-    border-radius: 120px;
-    background-color: rgb(255, 255, 255);
-    padding: 40px 54px;
-    width: 58em;
+    /* border-radius: 120px;
+    background-color: rgb(255, 255, 255); */
+    padding: 35px 54px;
+    /* width: 58em;
     box-sizing: border-box;
-    border: none;
+    border: none; */
 }
 #icon1, #icon2, #icon3, #icon4 {
     z-index: 2;
     color: #1700ef;
     position: absolute;
-    width: 70px;
-    padding: 26px 1px;
+    width: 76px;
+    padding: 40px 1px;
     font-size: 35px;
-}
+} 
 
 input::placeholder {
     font-size: 30px;
@@ -382,12 +381,12 @@ input::placeholder {
     margin: -34px -17px;
     padding: 158px 0px;
     width: 706px;
-    top: 164px;
+    top: 75px;
     position: relative;
     z-index: 4;
     left: 48px;
     float: right;
-    height: 152px;
+    height: 84px;
 }
 
 #formpassword{
@@ -402,7 +401,7 @@ input::placeholder {
     color: white;
     font-size: 53px;
     position: relative;
-        bottom: 70px;
+    bottom: 106px;
 }
 
 #rightext {
@@ -416,11 +415,21 @@ input::placeholder {
     bottom: 57px;
 }
 
+.radio-container {
+    margin: 20px 0;
+    background-color: #ffffff;
+    width: 763px;
+    border-radius: 120px;
+    padding: 30px 0px;
+    font-size: 35px;
+}
+
 input[type="radio"] {
     margin-right: 10px;
     display: inline-block;
     margin-left: 24px;
     height: 11px;
+    transform: scale(1.8);
 }
 
 .radio{
@@ -430,15 +439,6 @@ input[type="radio"] {
 
 }
 
-.radio-container {
-    margin: 20px 0;
-    background-color: white;
-    width: 770px;
-    border-radius: 120px;
-    padding: 6px 0px;
-    height: 90px;
-    font-size: 32px;
-}
 }
 
 @media (min-width:400px) and (max-width:700px)  {
@@ -611,16 +611,6 @@ input::placeholder {
     bottom: 130px;
 }
 
-.radio-container {
-    margin: 20px 0;
-    background-color: white;
-    width: 770px;
-    border-radius: 120px;
-    padding: 6px 0px;
-    height: 90px;
-    font-size: 30px;
-}
-
 }
 
 @media (min-width:701px) and (max-width:1024px) {
@@ -734,7 +724,6 @@ input::placeholder {
     padding: 15px 1px;
 }
 
-
 }
 
 @media only screen and (min-width:1030px) {
@@ -750,24 +739,9 @@ input::placeholder {
         margin-left: 184px;
         margin-right: 300px;
         margin-top: 65px;
-        height: 28em;
+        height: 25em;
         width: 40em;
     }
-    .right {
-        border-top-right-radius: 18px;
-        border-bottom-right-radius: 18px;
-        background: linear-gradient(135deg, #a700f3, #1700ef);
-        margin: -34px -17px;
-        padding: 158px 0px;
-        width: 342px;
-        top: 0px;
-        position: relative;
-        z-index: 4;
-        left: 48px;
-        float: right;
-        height: 200px;
-    }
-
 }
 
 
