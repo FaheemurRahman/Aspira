@@ -271,7 +271,7 @@ input[type="radio"] {
  
     width: 776px;
     margin: 68px auto;
-    height: auto;
+    height: 1300px;
     padding: 20px 15px;
 }
 #firstline{
@@ -380,7 +380,7 @@ input::placeholder {
     border-radius: 10px;
     background: linear-gradient(135deg, #a700f3, #1700ef);
     margin: -34px -17px;
-    padding: 158px 0px;
+    padding: 133px 0px;
     width: 706px;
     top: 17px;
     position: relative;
