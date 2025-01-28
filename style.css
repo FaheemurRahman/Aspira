@@ -34,7 +34,7 @@ h1{
     margin-left: 433px;
     margin-right: 300px;
     margin-top: 65px;
-    height: 25em;
+    height: 28em;
     width: 40em;
    
 
@@ -151,6 +151,44 @@ input[type = "password"]{
 .light{
     color: red;
 }
+.radio-container {
+    margin: 20px 0;
+}
+
+.radio-container label {
+    font-weight: bold;
+   
+}
+#type{
+    position: relative;
+    left: 24px;
+}
+#business{
+    
+
+}
+.radio-container {
+    margin: 20px 0;
+    background-color: white;
+    width: 295px;
+    border-radius: 120px;
+    padding: 6px 0px;
+
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    display: inline-block;
+    margin-left: 24px;
+    height: 11px;
+}
+
+.radio{
+    display: inline;
+    position: relative;
+    top: 2px;
+
+}
 
 
 /*  #button1{
@@ -182,9 +220,9 @@ input[type = "password"]{
 
 #button1:hover{
     background-color: rgb(0, 136, 255);
-    color:  #000000;
-    transition: 1s;
-}   
+    color:  #f50000;
+    cursor: pointer;
+}
 
 
 
@@ -202,9 +240,9 @@ input[type = "password"]{
 
 }
 
-#oldAccount{
-    position: relative;
-    bottom: -10px;
+#oldAccount {
+    position: absolute;
+    bottom: 819px;
     width: 278px;
 }
 
@@ -376,6 +414,30 @@ input::placeholder {
     font-size: 26px;
     position: relative;
     bottom: 57px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    display: inline-block;
+    margin-left: 24px;
+    height: 11px;
+}
+
+.radio{
+    display: inline;
+    position: relative;
+    top: 2px;
+
+}
+
+.radio-container {
+    margin: 20px 0;
+    background-color: white;
+    width: 770px;
+    border-radius: 120px;
+    padding: 6px 0px;
+    height: 90px;
+    font-size: 32px;
 }
 }
 
@@ -549,6 +611,16 @@ input::placeholder {
     bottom: 130px;
 }
 
+.radio-container {
+    margin: 20px 0;
+    background-color: white;
+    width: 770px;
+    border-radius: 120px;
+    padding: 6px 0px;
+    height: 90px;
+    font-size: 30px;
+}
+
 }
 
 @media (min-width:701px) and (max-width:1024px) {
@@ -603,7 +675,8 @@ input::placeholder {
     #rightheading {
         text-align: center;
         color: white;
-        font-size: 44px;
+        font-size: 37px;
+        width: 341px;
     }
 
     #rightext {
@@ -661,6 +734,7 @@ input::placeholder {
     padding: 15px 1px;
 }
 
+
 }
 
 @media only screen and (min-width:1030px) {
@@ -676,9 +750,24 @@ input::placeholder {
         margin-left: 184px;
         margin-right: 300px;
         margin-top: 65px;
-        height: 25em;
+        height: 28em;
         width: 40em;
     }
+    .right {
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        background: linear-gradient(135deg, #a700f3, #1700ef);
+        margin: -34px -17px;
+        padding: 158px 0px;
+        width: 342px;
+        top: 0px;
+        position: relative;
+        z-index: 4;
+        left: 48px;
+        float: right;
+        height: 200px;
+    }
+
 }
 
 
