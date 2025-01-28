@@ -283,16 +283,15 @@ width: 755px;
 }
 
 .left{
-    padding: 40px 1px;
-    margin: 0px;
-}
+    padding: 40px 30px;
+    margin: 0px;}
 
 
 input[type = "text"], [type = "email"],[type = "password"] {
     border-radius: 120px;
     background-color: rgb(255, 255, 255);
-    padding: 35px 54px;
-    width: 22em;
+    padding: 35px 84px;
+    width: 20em;
     box-sizing: border-box;
     border: none;
     box-shadow: #000000;
@@ -302,7 +301,8 @@ input[type = "text"], [type = "email"],[type = "password"] {
  input[type = "password"] {
     /* border-radius: 120px;
     background-color: rgb(255, 255, 255); */
-    padding: 35px 54px;
+    padding: 35px 85px;
+    width: 20em;
     /* width: 58em;
     box-sizing: border-box;
     border: none; */
@@ -311,7 +311,8 @@ input[type = "text"], [type = "email"],[type = "password"] {
 input[type = "email"] {
     /* border-radius: 120px;
     background-color: rgb(255, 255, 255); */
-    padding: 35px 54px;
+    padding: 35px 85px;
+    width: 20em;
     /* width: 58em;
     box-sizing: border-box;
     border: none; */
@@ -333,8 +334,8 @@ input::placeholder {
 #icon3a, #icon4a {
     position: absolute;
     color: #1700ef;
-    left: 722px;
-    padding: 31px 1px;
+    left: 677px;
+    padding: 33px 1px;
     font-size: 35px;
 }
 #reset{
@@ -358,11 +359,11 @@ input::placeholder {
     border: none;
     cursor: pointer;
     left: 312px;
-    top: 70px;
+    top: 11px;
 }
 #oldAccount {
     position: relative;
-    bottom: -77px;
+    bottom: -22px;
     width: 717px;
     font-size: 25px;
 }
@@ -381,12 +382,12 @@ input::placeholder {
     margin: -34px -17px;
     padding: 158px 0px;
     width: 706px;
-    top: 75px;
+    top: 17px;
     position: relative;
     z-index: 4;
     left: 48px;
     float: right;
-    height: 84px;
+    height: 0px;
 }
 
 #formpassword{
@@ -401,7 +402,7 @@ input::placeholder {
     color: white;
     font-size: 53px;
     position: relative;
-    bottom: 106px;
+    bottom: 154px;
 }
 
 #rightext {
@@ -412,13 +413,13 @@ input::placeholder {
     line-height: 36px;
     font-size: 26px;
     position: relative;
-    bottom: 57px;
+    bottom: 155px;
 }
 
 .radio-container {
     margin: 20px 0;
     background-color: #ffffff;
-    width: 763px;
+    width: 700px;
     border-radius: 120px;
     padding: 30px 0px;
     font-size: 35px;
